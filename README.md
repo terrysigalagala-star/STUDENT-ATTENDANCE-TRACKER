@@ -24,7 +24,7 @@ makes it easier to record attendance and view attendance reports.
 
 DSE/051/26  terrySigalagala-star  
 
-DSE/052/26  rnjoki 
+DSE/052/26  nderitucharity82-bit
 
 DSE/029/26  juliwaithaka 18-bit
 
