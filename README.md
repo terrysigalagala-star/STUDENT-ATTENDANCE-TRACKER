@@ -22,7 +22,10 @@ makes it easier to record attendance and view attendance reports.
 
 ## Authors
 ADMNO        GitHub Username
-DSE/051/26  terrySigalagala-star 
-DSE/052/26  rnjoki
+DSE/051/26  terrySigalagala-star  
+
+DSE/052/26  rnjoki 
+
 DSE/029/26  juliwaithaka 18-bit
+
 DSE/084/26  rnjoki
