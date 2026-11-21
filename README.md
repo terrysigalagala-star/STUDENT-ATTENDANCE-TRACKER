@@ -21,7 +21,7 @@ makes it easier to record attendance and view attendance reports.
 3. Open `index.html` in your browser.
 
 ## Authors
-ADMNO        GitHub Username
+
 DSE/051/26  terrySigalagala-star  
 
 DSE/052/26  rnjoki 
