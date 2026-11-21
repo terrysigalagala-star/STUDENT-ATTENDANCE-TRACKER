@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* styling for the Header */
+header {
+     background-color: #243b55;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #f4c542;
+}
+
+/* styling for the Welcome section */
+.Welcome {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* styling for the Dashboard */
+.Dashboard {
+    padding: 20px;
+    text-align: center;
+}
+.cards{
+ display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.card {
+    background-color: white;
+    padding: 30px 20px;
+    min-height: 140px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.card p {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.present {
+    border-top: 5px solid green;
+}
+
+.absent {
+    border-top: 5px solid red;
+}
+
+.late {
+    border-top: 5px solid orange;
+}
+
+/* styling for the Quick actions */
+.Quick-link {
+    text-align: center;
+    padding: 30px;
+}
+
+.Quick-link a {
+    display: inline-block;
+    background-color: #243b55;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.Welcome {
+    padding: 60px 20px;
+    line-height: 1.8;
+}
+
+.dashboard {
+    padding: 30px 10px;
+}
+
+.Quick-link {
+    padding: 40px 20px;
+}
+
+.Quick-link a:hover {
+    background-color: #365b7d;
+}
+
+/* styling for the Footer */
+footer {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+}
+
+/* STUDENT ATTENDANCE PAGE */
+.registration {
+    background-color: white;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.registration h2 {
+    text-align: center;
+    color: #243b55;
+    margin-bottom: 10px;
+}
+
+.registration p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.registration input,
+.registration select {
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.registration button {
+    background-color: #243b55;
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.registration button:hover {
+    background-color: #365b7d;
+}
+
+@media (max-width: 600px) 
+{
+    .registration 
+    {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+/* Attendance Recording Page */
+
+.attendance {
+    background-color: white;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.attendance h2,
+.attendance p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.attendance h2 {
+    color: #243b55;
+}
+
+.attendance form {
+    margin-top: 25px;
+}
+
+.attendance label {
+    display: block;
+    margin: 15px 0 7px;
+    font-weight: bold;
+}
+
+.attendance input,
+.attendance select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.attendance h3 {
+    margin: 25px 0 15px;
+    color: #243b55;
+}
+
+.attendance table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance th,
+.attendance td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.attendance th {
+    background-color: #243b55;
+    color: white;
+}
+
+.attendance tr:nth-child(even) {
+    background-color: #f4f6f9;
+}
+
+.attendance button {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #243b55;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.attendance button:hover {
+    background-color: #365b7d;
+}
+
+/* Small screen support */
+@media (max-width: 600px) {
+    .attendance {
+        padding: 15px;
+        overflow-x: auto;
+    }
+
+    .attendance table {
+        min-width: 600px;
+    }
+}
+
+/* ATTENDANCE REPORT PAGE */
+
+.reports {
+    background-color: white;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.reports h2,
+.reports > p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.reports h2,
+.reports h3 {
+    color: #243b55;
+}
+
+.reports h3 {
+    margin: 30px 0 15px;
+}
+
+.report-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.report-filter input,
+.report-filter select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.report-filter button {
+    padding: 10px 18px;
+    background-color: #243b55;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.report-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.report-card {
+    background-color: #f4f6f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.report-card p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.reports table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reports th,
+.reports td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.reports th {
+    background-color: #243b55;
+    color: white;
+}
+
+.reports tr:nth-child(even) {
+    background-color: #f4f6f9;
+}
+
+@media (max-width: 650px) {
+    .report-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reports {
+        padding: 15px;
+        overflow-x: auto;
+    }
+
+    .reports table {
+        min-width: 550px;
+    }
+}

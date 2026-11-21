@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Reports</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Attendance Tracker</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="students.html">Students</a>
+            <a href="attendance.html">Attendance</a>
+            <a href="reports.html">Reports</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="reports">
+
+            <h2>Attendance Reports</h2>
+            <p>Monitor and review student attendance records.</p>
+
+            <div class="report-filter">
+                <label for="report-date">Select Date:</label>
+                <input type="date" id="report-date">
+
+                <label for="report-class">Select Class:</label>
+                <select id="report-class">
+                    <option value="">All Classes</option>
+                    <option>DSE</option>
+                    <option>DIT</option>
+                    <option>DCS</option>
+                    <option>DDA</option>
+                    <option>DAIM</option>
+                </select>
+
+                <button type="button">Generate Report</button>
+            </div>
+
+            <h3>Attendance Summary</h3>
+
+            <div class="report-cards">
+
+                <div class="report-card">
+                    <h4>Total Students</h4>
+                    <p>4</p>
+                </div>
+
+                <div class="report-card">
+                    <h4>Present</h4>
+                    <p>4</p>
+                </div>
+
+                <div class="report-card">
+                    <h4>Absent</h4>
+                    <p>0</p>
+                </div>
+
+                <div class="report-card">
+                    <h4>Late</h4>
+                    <p>0</p>
+                </div>
+
+            </div>
+
+            <h3>Detailed Attendance Records</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Admission No.</th>
+                        <th>Student Name</th>
+                        <th>Class</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>DSE/051/26</td>
+                        <td>Terry Sigalagala</td>
+                        <td>DSE</td>
+                        <td>Present</td>
+                    </tr>
+
+                    <tr>
+                        <td>DSE/052/26</td>
+                        <td>Charity Muthoni</td>
+                        <td>DSE</td>
+                        <td>Absent</td>
+                    </tr>
+
+                    <tr>
+                        <td>DSE/028/26</td>
+                        <td>Julia Warindi</td>
+                        <td>DSE</td>
+                        <td>Late</td>
+                    </tr>
+
+                    <tr>
+                        <td>DSE/084/26</td>
+                        <td>Ruth Njoki</td>
+                        <td>DSE</td>
+                        <td>Present</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Attendance Tracker. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
